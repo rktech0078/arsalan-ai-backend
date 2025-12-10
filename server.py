@@ -13,6 +13,8 @@ app = FastAPI(title="Agent API")
 origins = [
     "http://localhost:3000",
     "https://agent-with-nextjs.vercel.app",
+    "https://agent-with-nextjs-oaxptrbf7-ar813s-projects.vercel.app/",
+    "https://agent-with-nextjs-git-main-ar813s-projects.vercel.app/",
 ]
 
 app.add_middleware(
