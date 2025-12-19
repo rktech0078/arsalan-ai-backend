@@ -12,10 +12,7 @@ app = FastAPI(title="Agent API")
 # Allow requests from your Next.js dev server
 origins = [
     "http://localhost:3000",
-    "https://agent-with-nextjs.vercel.app",
-    "https://agent-with-nextjs-oaxptrbf7-ar813s-projects.vercel.app/",
-    "https://agent-with-nextjs-git-main-ar813s-projects.vercel.app/",
-    "https://my-book-topaz.vercel.app/",
+    "my-book-topaz.vercel.app",
 ]
 
 app.add_middleware(
