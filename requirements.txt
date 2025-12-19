@@ -5,3 +5,5 @@ pydantic
 # plus your existing agent package and its deps
 # e.g., the package that provides `agents`, AsyncOpenAI, etc.
 openai-agents
+qdrant-client
+fastembed
